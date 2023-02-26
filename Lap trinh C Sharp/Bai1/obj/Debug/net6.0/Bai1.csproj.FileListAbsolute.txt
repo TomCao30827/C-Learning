@@ -1,0 +1,15 @@
+D:\C# Learn\Bai1\bin\Debug\net6.0\Bai1.exe
+D:\C# Learn\Bai1\bin\Debug\net6.0\Bai1.deps.json
+D:\C# Learn\Bai1\bin\Debug\net6.0\Bai1.runtimeconfig.json
+D:\C# Learn\Bai1\bin\Debug\net6.0\Bai1.dll
+D:\C# Learn\Bai1\bin\Debug\net6.0\Bai1.pdb
+D:\C# Learn\Bai1\obj\Debug\net6.0\Bai1.csproj.AssemblyReference.cache
+D:\C# Learn\Bai1\obj\Debug\net6.0\Bai1.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Learn\Bai1\obj\Debug\net6.0\Bai1.AssemblyInfoInputs.cache
+D:\C# Learn\Bai1\obj\Debug\net6.0\Bai1.AssemblyInfo.cs
+D:\C# Learn\Bai1\obj\Debug\net6.0\Bai1.csproj.CoreCompileInputs.cache
+D:\C# Learn\Bai1\obj\Debug\net6.0\Bai1.dll
+D:\C# Learn\Bai1\obj\Debug\net6.0\refint\Bai1.dll
+D:\C# Learn\Bai1\obj\Debug\net6.0\Bai1.pdb
+D:\C# Learn\Bai1\obj\Debug\net6.0\Bai1.genruntimeconfig.cache
+D:\C# Learn\Bai1\obj\Debug\net6.0\ref\Bai1.dll
