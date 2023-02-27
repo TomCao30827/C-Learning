@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# Learn\\OOP\\OOP.csproj",
+      "projectUniqueName": "D:\\STUDYYY\\Lap trinh C Sharp\\OOP\\OOP.csproj",
       "projectName": "OOP",
-      "projectPath": "D:\\C# Learn\\OOP\\OOP.csproj",
+      "projectPath": "D:\\STUDYYY\\Lap trinh C Sharp\\OOP\\OOP.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\C# Learn\\OOP\\obj\\",
+      "outputPath": "D:\\STUDYYY\\Lap trinh C Sharp\\OOP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
