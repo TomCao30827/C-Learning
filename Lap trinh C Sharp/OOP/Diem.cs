@@ -24,8 +24,10 @@ namespace OOP
 
         public void nhapDiem()
         {
-            x = Int32.Parse(Console.ReadLine());
-            y = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap tu so");
+            x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap mau so");
+            y = int.Parse(Console.ReadLine());
         }
 
         public void hienThi()
