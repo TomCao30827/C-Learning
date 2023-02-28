@@ -10,6 +10,7 @@
             t.hienThi();
             Console.WriteLine("So ngay cua thang la " + t.tinhSoNgay(t.Thang, t.Nam));
             t.ngayHomSau().hienThi();
+
         }
     }
 }
