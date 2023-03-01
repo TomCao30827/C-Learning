@@ -4,12 +4,11 @@
     {
         static void Main(string[] args)
         {
-            MyDate t = new MyDate(22, 2, 2003);
-            t.hienThi();
-            t.nhapDate();
-            t.hienThi();
-            Console.WriteLine("So ngay cua thang la " + t.tinhSoNgay(t.Thang, t.Nam));
-            t.ngayHomSau().hienThi();
+            Gach a= new Gach();
+            a.nhapTTin();
+            a.hienThi();
+            Console.WriteLine("Max dt: " + a.maxDt(300, 400));
+            Console.WriteLine("So luong gach: " + a.soLuongHopGach(300, 400));
 
         }
     }

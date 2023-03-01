@@ -61,5 +61,68 @@ namespace OOP
         {
             return (float)(tuSo / mauSo);
         }
+
+        public bool lonHon(PhanSo a)
+        {
+            if (this.giaTriThuc() > a.giaTriThuc())
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public PhanSo congPhanSo(PhanSo a)
+        {
+            if (this.mauSo == a.mauSo)
+            {
+                return new PhanSo(this.tuSo + a.tuSo, mauSo);
+            }
+            else
+            {
+                return new PhanSo((this.tuSo * a.MauSo) + (a.tuSo * this.mauSo), this.mauSo * a.mauSo);
+            }
+        }
+
+        public PhanSo truPhanSo(PhanSo a)
+        {
+            if (this.mauSo == a.mauSo)
+            {
+                return new PhanSo(this.tuSo - a.tuSo, mauSo);
+            }
+            else
+            {
+                return new PhanSo((this.tuSo * a.MauSo) - (a.tuSo * this.mauSo), this.mauSo * a.mauSo);
+            }
+        }
+
+        public PhanSo nhanPhanSo(PhanSo a)
+        {
+            return new PhanSo(this.tuSo * a.tuSo, this.mauSo * a.mauSo);
+        }
+
+        public PhanSo chiaPhanSo(PhanSo a)
+        {
+            return new PhanSo(this.tuSo * a.mauSo, this.mauSo * a.tuSo);
+        }
+
+        public PhanSo congSoNguyen(int a)
+        {
+            return new PhanSo(tuSo + (a * mauSo), mauSo);
+        }
+
+        public PhanSo truSoNguyen(int a)
+        {
+            return new PhanSo(tuSo - (a * mauSo), mauSo);
+        }
+
+        public PhanSo nhanSoNguyen(int a)
+        {
+            return new PhanSo(tuSo * a, mauSo);
+        }
+
+        public PhanSo chiaSoNguyen(int a)
+        {
+            return new PhanSo(tuSo, mauSo * a);
+        }
     }
 }
