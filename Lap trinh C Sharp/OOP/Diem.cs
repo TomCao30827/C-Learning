@@ -41,6 +41,11 @@ namespace OOP
             this.y += y;
         }
 
+        public Diem doiDiemMoi(int x, int y)
+        {
+            return new Diem(this.x + x, this.y + y);
+        }
+
         public double khoangCach()
         {
             return Math.Sqrt(x * x + y * y);
