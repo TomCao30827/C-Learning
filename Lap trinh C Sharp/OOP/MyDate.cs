@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OOP
 {
-    internal class MyDate
+    public class MyDate
     {
         private int ngay;
         private int thang;
@@ -29,6 +29,12 @@ namespace OOP
             Ngay = ngay;
             Thang = thang;
             Nam = nam;
+        }
+
+        public MyDate(MyDate a)
+        {
+            this.ngay = a.ngay;
+            this.thang = a.thang;
         }
 
         public void hienThi()
